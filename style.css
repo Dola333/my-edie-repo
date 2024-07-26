@@ -731,7 +731,8 @@ font-size: 14px;
 font-weight: 400;
 line-height: 21px;
 text-align: left;
-color: #F2F2F2;
+color: #828282;
+
 
 }
 
@@ -795,6 +796,526 @@ padding-bottom: 10px;
     text-decoration: none;
     margin-left: 3px;
     margin-right: 3px;
+}
+
+
+
+@media screen and (max-width:576px) {
+
+    .head-info {
+        width: 47px;
+        height: 35px;
+        margin-top: 13px;
+        margin-left: 10px;
+        gap: 0px;
+        opacity: 0px;
+        
+    }
+    
+    .bars {
+        margin-left: 103px;
+    }
+
+
+    .bars > li > a {
+        display: none;
+    }
+
+
+    .nav {
+        margin-left: 220px;
+        margin-top: 20px;
+        background-image: url("https://cdn.vectorstock.com/i/1000x1000/63/15/hamburger-menu-silhouette-icon-web-graphic-icons-vector-42486315.webp");
+        background-repeat: no-repeat;
+        background-size: 20px;
+        cursor: pointer;
+    }
+
+
+    .happy {
+        margin-left: 40px;
+        margin-top: -30px;
+        font-size: 12px;
+    }
+
+    .beautiful {
+        margin-left: 40px;
+        font-size: 24px;
+        width: 272px;
+        height: 72px;
+        line-height: 36px;
+        margin-top: 5px;
+    }
+
+    .first-image > img {
+        width: 348px;
+height: 145px;
+
+gap: 0px;
+border-radius: 18px;
+opacity: 0px;
+
+    }
+
+    .first-image {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+
+    .story {
+        width: 227px;
+height: 58px;
+
+margin-left: 40px;
+gap: 0px;
+opacity: 0px;
+margin-top: -20px;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+
+    }
+  
+     .story-para {
+        width: 275px;
+height: 74px;
+
+margin-left: 40px;
+gap: 0px;
+opacity: 0px;
+
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+
+     }
+
+
+.contact {
+    margin-left: 40px;
+    font-size: 10px;
+}
+
+.butty {
+    margin-left: 40px;
+    margin-top: -5px;
+}
+
+.email {
+    width:291px;
+    height: 47px;
+}
+
+
+.join {
+    margin-left: -262px;
+    margin-top: -573px;
+    width: 71px;
+    height: 39px;
+    font-size: 14px;
+}
+
+.offer-heading {
+    width: 259px;
+    height: 72px;
+    margin-left: 49px;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: -30px;
+}
+
+.sec-con {
+    flex-direction: column;
+    margin-top: 30px;
+    column-gap: 10px;
+    margin-left: 10px;
+}
+
+.con-sec {
+    width: 341px;
+    height: 422px;
+}
+
+.con-sec > img {
+    width: 36px;
+height: 36px;
+
+gap: 0px;
+opacity: 0px;
+
+}
+
+.con-sec-middle > img {
+    width: 36px;
+height: 36px;
+
+gap: 0px;
+opacity: 0px;
+
+}
+
+.name {
+    font-size: 24px;
+}
+
+.para {
+    font-size: 16px;
+}
+
+.get {
+    width: 116px;
+height: 42px;
+
+font-size: 16px;
+
+}
+
+.started {
+    width: 116px;
+    height: 42px;
+    
+    font-size: 16px;
+}
+
+
+.design-heading {
+    width: 267px;
+height: 72px;
+margin-left: 40px;
+gap: 0px;
+opacity: 0px;
+font-size: 24px;
+line-height: 36px;
+margin-top: -150px;
+}
+
+
+.second-container {
+    margin-bottom: 10px;
+}
+  .third-con {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+  }
+
+  .less {
+    margin-top: 20px;
+  }
+
+
+  .third-pic > img {
+    width: 350.99px;
+height: 350.99px;
+
+gap: 0px;
+
+opacity: 0px;
+
+  }
+
+
+  .head-third {
+    font-size: 12px;
+  }
+
+  .third-para {
+    font-size: 18px;
+    margin-top: -15px;
+  }
+
+  .third-pic {
+    margin-top: 10px;
+  }
+
+  .see {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+
+  .fourth-con {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+
+  .meet {
+    margin-left: 10px;
+    margin-top: -240px;
+    font-size: 18px;
+  }
+
+  .chilled {
+    margin-left: 10px;
+    width: 280px;
+    height: 162px;
+    font-size: 36px;
+    line-height: 54px;
+    margin-top: 10px;
+  }
+
+  .fourth-para {
+    margin-left: 10px;
+    width: 273px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .fourth-left {
+    margin-left: 10px;
+  }
+
+  .fourth-left > img {
+    width: 178.16px;
+height: 178.16px;
+margin-top: -20px;
+gap: 0px;
+
+opacity: 0px;
+
+  }
+
+  .f-pics > img{
+    width: 144.76px;
+height: 144.76px;
+margin-top: 20px;
+opacity: 0px;
+
+  }
+
+  .fourth-container {
+    margin-bottom: 30px;
+  }
+
+
+
+  .fourth-pictures {
+    gap: 7px;
+  }
+
+  .f-piccs > img {
+    width: 162.25px;
+height: 167.03px;
+
+opacity: 0px;
+
+  }
+
+
+
+  .fast {
+    width: 351px;
+height: 180px;
+margin-left: 10px;
+margin-top: -45px;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+
+
+  }
+
+
+  .fifth-con {
+    display: flex;
+
+  }
+
+  .fifth-info > img {
+    width: 82px;
+height: 82px;
+
+margin-left: -154px;
+gap: 0px;
+opacity: 0px;
+
+  }
+
+
+  .carlos {
+    font-size: 24px;
+    margin-left: -70px;
+  }
+
+  .para-fifth {
+    font-size: 18px;
+    margin-left: -70px;
+  }
+
+  .footer {
+    width: 377px;
+height: 693px;
+margin-top: -70px;
+gap: 0px;
+opacity: 0px;
+
+  }
+
+
+  .footer-con {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .foot-info1 {
+    margin-left: 40px;
+    margin-top: 15px;
+  }
+
+  .lists > li {
+    margin-top: 10px;
+  }
+
+  .lists > li > a {
+    font-size: 18px;
+  }
+   
+
+
+  .foot-info {
+    margin-left: 40px;
+  }
+  
+
+  .ed {
+    margin-bottom: 10px;
+  }
+
+
+  .foot-info3 {
+    margin-left: 40px;
+  }
+
+
+  .cont {
+    font-size: 10px;
+    color: #828282;
+
+  }
+
+
+  .email-footer {
+    width: 291px;
+height: 47px;
+
+opacity: 0px;
+
+
+  }
+
+  .footer-button {
+    margin-top: -5px;
+  }
+
+
+  .footer-dev {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+
+
+  .foot-btn {
+    width: 71px;
+height: 39px;
+font-size: 14px;
+opacity: 0px;
+margin-left: -75px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
